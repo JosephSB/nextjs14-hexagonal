@@ -1,0 +1,45 @@
+.main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 2rem;
+  padding: 0.5rem;
+}
+
+.mainNotfound{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mainNotfound img {
+  padding: 2rem 0;
+}
+.mainNotfound p, .mainNotfound h3 {
+  margin: 5px 0;
+}
+
+
+.body{
+  width: 100%;
+}
+.feedTitle{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.aside{
+  width: 100%;
+  font-size: 14px;
+}
+
+@media (max-width: 800px){
+  .main{
+    grid-template-columns: 1fr;
+    gap: 0rem;
+  }
+  .aside{
+      display: none;
+  }
+}
