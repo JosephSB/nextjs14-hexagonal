@@ -1,0 +1,66 @@
+.boxActions {
+    display: flex;
+    gap: 5px;
+    padding: 0.4rem 0.4rem;
+    position: relative;
+}
+
+.boxActions:hover {
+    background-color: var(--secondary-color-hover);
+    border-radius: 5px;
+}
+.boxActions.active{
+    background-color: var(--secondary-color);
+}
+
+.sharebtn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.ShareOptions {
+    width: 200px;
+    padding: 0.5rem;
+    position: absolute;
+    background-color: white;
+    z-index: 10;
+    border-radius: 10px;
+    box-shadow: 0 4px 13px #e9e9f9;
+}
+
+.ShareOption{
+    width: 100%;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 5px;
+    position: relative;
+}
+
+.ShareOption p{
+    margin: 5px 0;
+}
+
+.ShareOption:hover{
+    background-color: var(--secondary-color-hover);
+}
+
+.confirmationMessage {
+    color: #42b983;
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto 0;
+}

@@ -1,0 +1,35 @@
+.fadeModal{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.371);
+    top: 0;
+    left: 0;
+    padding: 1rem;
+}
+.modal {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+}
+
+.modalHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.modalHeader p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.modalHeader img{
+    cursor: pointer;
+}

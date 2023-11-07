@@ -1,0 +1,61 @@
+.banner {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.header {
+    width: 100%;
+    text-align: start;
+    font-size: 16px;
+    background-color: var(--secondary-color-hover);
+    color: var(--secondary-color);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1rem;
+}
+
+.titleHeader {
+    font-weight: bold;
+    margin: 0;
+}
+
+.body {
+    background-color: var(--bg-color-2);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 1rem 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 5px;
+}
+
+.cardbody {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardTitle{
+    font-size: 12px;
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.cardTitle:hover{
+    text-decoration: underline;
+}
+.cardSubtitle{
+    font-size: 10px;
+    margin: 5px 0;
+}

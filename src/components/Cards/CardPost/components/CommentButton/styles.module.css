@@ -1,0 +1,20 @@
+.boxActions {
+    display: flex;
+    gap: 5px;
+    padding: 0.4rem 0.4rem;
+    position: relative;
+}
+
+.sharebtn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.text{
+    margin: 5px 0;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--secondary-color);
+}

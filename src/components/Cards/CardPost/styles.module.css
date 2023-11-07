@@ -1,0 +1,121 @@
+.cardPost{
+    width: 100%;
+    padding: 1rem 0;
+    padding-bottom: 0.1rem;
+    background-color: white;
+    box-shadow: 0 4px 13px #e9e9f9;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.cardPostHeader{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.cardPostHeaderInfo{
+    width: 100%;
+}
+.cardPostSubheader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cardPostSubheaderTitle,.cardPostSubheaderOccupation,.cardPostSubheaderDate {
+    margin: 5px 0;
+}
+.cardPostSubheaderTitle{
+    font-size: 12px;
+    font-weight: 500;
+}
+.cardPostSubheaderTitle:hover{
+    text-decoration: underline;
+}
+.cardPostSubheaderOccupation,.cardPostSubheaderDate{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.cardPostHeaderData{
+    width: 100%;
+}
+
+.cardPostHeaderDataTitle{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+.cardPostHeaderDataSubtitle{
+    font-size: 13px;
+    margin: 5px 0;
+}
+.cardPostHeaderDataHighlight{
+    color: var(--secondary-color);
+    font-weight: 500;
+    cursor: pointer;
+}
+.cardPostHeaderDataHighlight:hover{
+    text-decoration: underline;
+}
+.cardPostFooter{
+    padding: 0 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.containerSwiper{
+    width: 100%;
+}
+
+.containerSwiper .swiper-button-next{
+    color: black;
+}
+
+.cardPostIframe {
+    width: 100%;
+    border: none;
+}
+
+.cardPostImage {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.containerImagesForo{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.containerImageForo{
+    position: absolute;
+    width: calc(50% + 100px);
+    height: 400px;
+    transform: skew(-20deg, 0deg);
+    overflow: hidden;
+}
+.ImageForo{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: skew(20deg, 0deg);
+}
+
+.left, .right img {
+    left: -100px;
+  }
+  .right, .left img {
+    right: -100px;
+  }

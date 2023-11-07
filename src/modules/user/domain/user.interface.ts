@@ -16,4 +16,13 @@ export interface IUser {
     status: string // puede tiparse
 }
 
+export interface IUserLittle {
+    id: number
+    fullName: string
+    occupation: string
+    slug: string
+    totalFolowings: number
+    profileImage: string
+}
+
 export type UserRoles = 'Publicador' | 'Suscriptor' | 'Anunciante'
